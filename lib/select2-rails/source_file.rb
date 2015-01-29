@@ -14,7 +14,7 @@ class SourceFile < Thor
     get "#{remote}/raw/#{tag}/dist/css/select2.css", "stylesheets/select2.css"
     get "#{remote}/raw/#{tag}/dist/js/select2.js", "javascripts/select2.js"
     languages.each do |lang|
-      get "#{remote}/raw/#{tag}/dist/js/i18n/#{lang}.js", "javascripts/i18n/#{lang}.js"
+      get "#{remote}/raw/#{tag}/dist/js/i18n/#{lang}.js", "javascripts/select2/#{lang}.js"
     end
   end
 
