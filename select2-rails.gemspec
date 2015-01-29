@@ -4,10 +4,10 @@ require File.expand_path("../lib/select2-rails/version", __FILE__)
 Gem::Specification.new do |s|
   s.name        = "select2-rails"
   s.version     = Select2::Rails::VERSION
-  s.authors     = ["Rogerio Medeiros", "Pedro Nascimento"]
-  s.email       = ["argerim@gmail.com", "pnascimento@gmail.com"]
-  s.homepage    = "https://github.com/argerim/select2-rails"
-  s.summary     = %q{Integrate Select2 javascript library with Rails asset pipeline}
+  s.authors     = ["Christiaan Thijssen"]
+  s.email       = ["christiaanthijssen@iada.nl"]
+  s.homepage    = "https://github.com/CUnknown/select2-rails"
+  s.summary     = %q{Integrate Select2 4.0.0-beta.3 javascript library with Rails asset pipeline}
   s.description = %q{Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. This gem integrates Select2 with Rails asset pipeline for easy of use.}
   s.license     = 'MIT'
   s.files         = `git ls-files`.split("\n")
